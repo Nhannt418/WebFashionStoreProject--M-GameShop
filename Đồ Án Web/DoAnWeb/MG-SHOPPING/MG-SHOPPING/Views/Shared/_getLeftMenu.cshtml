@@ -1,0 +1,10 @@
+﻿@model IList< MG_Model.EF.MenuManager>
+						<ul class="left_menu">
+							<li class="top-nav"><h2><strong>Menu Sản phẩm</strong></h2></li>
+                            @foreach (var i in Model)
+                            { 
+                                if(i.name=="Tất cả sản phẩm"){<li class="selected"><a class="tatca" href="@i.link"><i class="fa fa-globe"></i>@i.name</a></li>}
+                                else{
+                                <li><a href="@i.link" class="chonu"><i class="@i.ItemIcon"></i><span class="pull-right">&gt;&gt;</span> @i.name</a></li>}
+                            }
+                            </ul>

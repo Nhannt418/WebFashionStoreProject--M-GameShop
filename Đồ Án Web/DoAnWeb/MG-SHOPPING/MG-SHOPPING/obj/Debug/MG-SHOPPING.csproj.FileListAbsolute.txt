@@ -1,0 +1,131 @@
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.pdb
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\Microsoft.Web.Infrastructure.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csprojResolveAssemblyReference.cache
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.pdb
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.pdb
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.pdb
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\Microsoft.Web.Infrastructure.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.pdb
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csprojResolveAssemblyReference.cache
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.pdb
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.dll.config
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Net.Http.Formatting.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.WebHost.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Net.Http.Formatting.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.WebHost.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.dll.config
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.pdb
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Net.Http.Formatting.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.WebHost.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.pdb
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.dll.config
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Net.Http.Formatting.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.WebHost.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csprojAssemblyReference.cache
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csproj.CoreCompileInputs.cache
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csproj.CopyComplete
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.pdb
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.dll.config
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\MG-SHOPPING.pdb
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Net.Http.Formatting.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.WebHost.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.pdb
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\MG-Model.dll.config
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\EntityFramework.SqlServer.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\Newtonsoft.Json.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Net.Http.Formatting.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Helpers.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Http.WebHost.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Mvc.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.Razor.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Deployment.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\bin\System.Web.WebPages.Razor.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csprojAssemblyReference.cache
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csproj.CoreCompileInputs.cache
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.csproj.CopyComplete
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-SHOPPING\obj\Debug\MG-SHOPPING.pdb

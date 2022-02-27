@@ -1,0 +1,58 @@
+﻿@{
+    ViewBag.Title =Model.nameProduct;
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewBag.Description = Model.Description;
+}
+@model MG_Model.EF.Products
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="left-sidebar">
+						@{Html.RenderAction("_getLeftMenu", "Menu");}
+                        @{Html.RenderAction("_getBrands", "Menu");}
+					</div>	
+				</div>
+			<div class="col-sm-9 padding-right" style="padding-top:10px;">
+                <div class="row">
+
+                    <div class="col-sm-5">
+							<div class="view-product">
+								<img src="@Model.image_large" alt="@Model.alt" />								
+							</div>
+						</div>
+						<div class="col-sm-7">
+							<div class="product-information"><!--/product-information-->
+								<img src="/Galery/galery/new.jpg" class="newarrival" alt="" />
+								<h2 id="name"><span>@Model.nameProduct</span></h2>
+								<p id="code">@Model.codeProduct</p>
+								<img src="/Galery/galery/rating.png" alt="/" />
+									<h2>Giá: <span id="price">@Model.price</span>&#8363;</h2>
+									<label>Số lượng:</label>
+									<input type="number" id="quarity" value="1" />
+									<button type="button" class="btn btn-fefault cart" onclick="addProduct(@Model.id,'@Model.nameProduct','@Model.metaNameProduct''@Model.codeProduct','@Model.image_large',@Model.price)">
+										<i class="fa fa-shopping-cart" ></i>
+										Add to cart
+									</button>
+								<h4><b>Chất liệu:</b>@Model.material</h4>
+								<h4><b>Loại:</b>@Model.Status </h4>
+								<h4><b>Hiệu:</b> @Model.nameCompany</h4>
+                                <h4><b>Color:</b></h4><input type="color" value="@Model.color" class="span6" style="border:none;"/>
+                                <h4><b>Description:</b> @Model.Description</h4>
+								<div>
+                                    <div class="fb-like" data-href="https://developers.facebook.com/docs/plugins/" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
+                                    <iframe src="@ViewBag.src" 
+                                            width="450" height="80" style="border:none;overflow:hidden" 
+                                            scrolling="no" frameborder="0" allowTransparency="true">
+                                            </iframe>
+								</div>
+							</div><!--/product-information-->
+                            <script src="~/Scripts/jquery-2.2.1.min.js"></script>
+                            <script src="~/Scripts/_detailScript.js"></script>
+						</div>
+                </div>
+						
+                    @{Html.RenderAction("_getSale", "Menu");}
+				    @{Html.RenderAction("_getRecommend", "Menu");}
+			        </div>
+                </div>
+            </div>

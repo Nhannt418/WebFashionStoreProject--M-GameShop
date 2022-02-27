@@ -1,0 +1,53 @@
+﻿					<h2 class="title text-center">---Hàng Đang Khuyến Mãi---</h2>		
+					<br>
+									  <div id="saleproduct" class="carousel slide" data-ride="carousel">
+										<!-- Indicators -->
+										<ol class="carousel-indicators">
+										  <li data-target="#saleproduct" data-slide-to="0" class="active"></li>
+										  <li data-target="#saleproduct" data-slide-to="1"></li>
+										  <li data-target="#saleproduct" data-slide-to="2"></li>
+										  <li data-target="#saleproduct" data-slide-to="3"></li>
+										</ol>
+
+										<!-- Wrapper for slides -->
+										<div class="carousel-inner" role="listbox">
+                                            @{var p = 0;
+                                              for (var i = 0; i < 4; i++)
+                                              {
+                                                    <div class="item @if (i == 0)
+                                                                     {<text> active</text>}">
+										                  <div class="row">
+                                                               <div class="productinfo text-center">
+                                                              @for (var j = 0; j < 4; j++)
+                                                              { 
+                                                                   
+                                                                        <div class="col-sm-3"><a href="/chi-tiet/@ViewBag.Sale[p].nameProduct"><img src="@ViewBag.Sale[p].image_large" alt="@ViewBag.Sale[p].alt" align="middle"></a>
+                                                                        <img src="/Galery/galery/sale.png" class="new" alt=""  />
+                                                                            <a href="/chi-tiet/@ViewBag.Sale[p].metaNameProduct">@ViewBag.Sale[p].nameProduct</a>
+                                                                            	<button type="button" class="btn btn-fefault cart" data-toggle="modal" data-target="#AddItems" onclick="addProduct(@ViewBag.Sale[p].id,'@ViewBag.Sale[p].nameProduct','@ViewBag.Sale[p].codeProduct','@ViewBag.Sale[p].image_large',@ViewBag.Sale[p].price)">
+										                        <i class="fa fa-shopping-cart" ></i>
+										                                Add to cart
+									                                </button>
+
+											                            </div>
+                                                                          p++;
+                                                              }
+                                                                </div>
+									                </div>
+                                                  </div>
+                                              }
+                                            }
+                                            </div>
+
+										<!-- Left and right controls -->
+										<a class="left carousel-control" href="#saleproduct" role="button" data-slide="prev">
+										  <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+										  <span class="sr-only">Previous</span>
+										</a>
+										<a class="right carousel-control" href="#saleproduct" role="button" data-slide="next">
+										  <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+										  <span class="sr-only">Next</span>
+										</a>
+									  </div>
+				
+						

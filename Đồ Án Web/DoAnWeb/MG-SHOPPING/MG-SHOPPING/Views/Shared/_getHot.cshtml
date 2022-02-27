@@ -1,0 +1,19 @@
+﻿@model IList<MG_Model.EF.Products>
+                <h2 class="text-center"><span>Sản Phẩm Hot</span></h2>
+            @foreach(var i in Model){
+
+                                            <div class="product-image-wrapper">
+											        <div class="single-products">
+													        <div class="productinfo text-center">
+														        <img src="@i.image_large" alt="@i.alt" align="middle"/>
+													        <h2>Giá:<span>@i.price &#8363;</span></h2>
+													        <a href="/chi-tiet/@i.metaNameProduct"><strong>@i.nameProduct </strong></a><br />
+                                                                <input type="hidden" id="quarity" value="1">
+                                                            <button type="button" class="btn btn-fefault cart" data-toggle="modal" data-target="#AddItems" onclick="addProduct(@i.id,'@i.nameProduct','@i.codeProduct','@i.image_large',@i.price)"><i class="fa fa-shopping-cart" ></i>
+										                    Add to cart
+									                    </button>
+												        </div>
+												       <img src="/Galery/hot.gif" class="new" alt="" />
+											        </div>
+										        </div>
+            }

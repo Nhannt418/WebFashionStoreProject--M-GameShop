@@ -1,0 +1,10 @@
+﻿@model IList< MG_Model.EF.MenuManager>
+
+                                                <h2>Về Người Mua</h2>
+										    <ul class="nav nav-pills nav-stacked">
+
+                                                @foreach (var i in Model)
+                                                { 
+                                                    <li><a href="@i.link">@i.name</a></li>
+                                                }
+										    </ul>

@@ -1,0 +1,66 @@
+﻿body{
+	font-family: 'EB Garamond', serif;
+	font-size:1.3em;
+}
+#header_icon{
+	margin:50px 20px;
+
+}
+#header_banner{
+	padding:20px 30px;
+	position:relative;
+}
+.list_login{
+	padding:20px 0;
+}
+ul.list_login li{
+	display:inline;
+	color:#A13091;
+	padding:10px 7px;
+	font-size:1.4em;
+}
+ul.list_login li a{
+	text-decoration:none;
+}
+ul.list_login li :hover{
+	border-radius: 8px 8px 8px 8px;
+	border:1px #A13091 solid;
+	color:#fff;
+	background:#A13091;
+}
+#header_nav{
+	width:100%;
+	background-color:#A13091;
+}
+a.divider {
+	font-size:1.5em;
+	color: #fff;
+}
+a.divider:hover{
+	color:#A13091;
+}
+.active{
+	font-size:1.55em;
+	color: 	#c2d6d6;
+}
+#header_search{
+	float:right;
+	padding: 8px 5px;
+}
+.dropdown-menu > li > a {
+    color:#fff;
+}
+.dropdown-menu > li>a:hover {
+    background:#A13091;
+    color:#fff;
+}
+.dropdown-menu {
+    background:rgba(0,0,0,.2);
+    color:#fff;
+}
+.remixed {
+    font-size:1.25em;
+}
+#searcher {
+    width:45%;
+}

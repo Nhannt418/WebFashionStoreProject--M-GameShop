@@ -1,0 +1,102 @@
+﻿@{
+    ViewBag.Title = "Hóa đơn";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+@model IList<MG_SHOPPING.Models.Detail.ModelCart>
+
+@{Html.RenderAction("_getBanner", "Home");}
+		<!--phan session của main-->
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-3">
+					<div class="left-sidebar">
+						@{Html.RenderAction("_getLeftMenu", "Menu");}
+						<div class="brands_products"><!--brands_products-->
+							<div class="brands-name">
+								<div class="menu-container">
+      
+									  <div class="top_nav">
+										<h2 class="text-center">Hàng Hiệu</h2>
+									  </div>
+									 @{Html.RenderAction("_getBrands", "Menu");}
+								</div>
+							</div>
+						</div><!--/brands_products-->
+						
+						
+					</div>	
+				</div>
+				
+				<div class="col-sm-9 padding-right">
+					<section id="cart_items">
+						<h2 class="text-center"><span>Mời bạn xem bảng hóa đơn</span></h2>
+							<div class="table-responsive cart_info">
+								<table class="table table-condensed">
+									<thead>
+										<tr class="cart_menu">
+											<td class="image">Hình ảnh</td>
+											<td class="description">Mô tả</td>
+											<td class="price">Giá</td>
+											<td class="quantity">Số lượng</td>
+											<td class="total">Tổng Tiền</td>
+										</tr>
+									</thead>
+									<tbody>
+                                        @{var total=0;}
+                                        @foreach (var i in Model)
+                                        { 
+                                            total+=i.price*i.quarity;
+                                                <tr>
+											    <td class="cart_product">
+												    <img src="@i.image" alt="" />
+											    </td>
+											    <td class="cart_description">
+												    <h4>@i.name</h4>
+											    </td>
+											    <td class="cart_price">
+												    <p><span>@i.price &#8363;</span></p>
+											    </td>
+											    <td class="cart_quantity">
+                                                    <p>@i.quarity</p>
+											    </td>
+											    <td class="cart_total">
+												    <p class="cart_total_price"><span>@(i.price*i.quarity) &#8363;</span></p>
+											    </td>
+										    </tr>
+                                        }
+                                            <tr>
+                                                <td>Tổng giá(Total):@total &#8363;</td>
+                                            </tr>
+									</tbody>
+								</table>
+                                </div>
+                        <>
+					</section> <!--/#cart_items-->
+
+					<section id="do_action">
+							<div class="heading">
+								<h3 style="color:#A13091; font-weight:bold;">Những gì cần làm sau cùng để quá trình mua hàng được xác nhận.!!!</h3>
+								<p>Vui lòng xem hóa đơn và điền thông tin để chúng tôi chuyển hàng tới bạn....</p>
+							</div>
+							<div class="row">
+								<div class="col-sm-9">
+									<div class="chose_area">
+									<h2 class="text-center"><span>Thông tin khách hàng</span></h2>
+                                        <h3>Họ tên:</h3><h2 class="text-center">@ViewBag.Customer.nameCustomer</h2>
+                                        <h4>Giới tính:</h4><h3  class="text-center">@(ViewBag.Customer.sex?"Nam":"Nữ")</h3>
+                                        <h4>Địa chỉ:</h4><h3  class="text-center">@ViewBag.Customer.adress</h3>
+                                        <h4>SDT:</h4><h3  class="text-center">@ViewBag.Customer.phoneNumber</h3>
+										<h4>Email:</h4><h3  class="text-center">@ViewBag.Customer.Email</h3>
+									</div>
+								</div>
+							</div>
+					</section><!--/#do_action-->
+				</div>	
+				</div>
+			</div>
+                
+		</section>
+
+
+

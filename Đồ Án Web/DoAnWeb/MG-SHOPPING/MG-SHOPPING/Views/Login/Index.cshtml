@@ -1,0 +1,54 @@
+﻿@{
+    ViewBag.Title = "Đăng nhập đăng kí";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+
+<section id="form"><!--form-->
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-4 col-sm-offset-1">
+					<div class="login-form"><!--login form-->
+						<h2>ĐĂNG NHẬP TÀI KHOẢN CỦA BẠN.</h2>
+                        <p id="login_alert" style="color:red">@TempData["message"]</p>
+						<form name="loginForm"action="/Login/Index" method="post" onsubmit="return _login()">
+							<input type="text" name="user" placeholder="UserName" required />
+							<input type="password" name="pass" placeholder="Password" required />
+							<span>
+								<input type="checkbox" class="checkbox" checked name="remember"> 
+								Keep me signed in
+							</span>
+							<button type="submit" class="btn btn-default">Login</button>
+						</form>
+					</div><!--/login form-->
+				</div>
+				<div class="col-sm-1">
+					<h2 class="or">OR</h2>
+				</div>
+				<div class="col-sm-4">
+					<div class="signup-form"><!--sign up form-->
+						<h2>TẠO TÀI KHOẢN MỚI</h2>
+                        <p id="resgister_alert" style="color:red"></p>
+						<form name="registerForm"action="/Login/Register" method="post">
+							<input type="text" name="username" placeholder="UserName" required/>
+							<input type="email" name="email" placeholder="Email Address" required/>
+                            <input type="text" name="realname" placeholder="Full name" />
+							Nhập Tuổi:<input type="number" name="age" required/>
+                            <input type="text"name="phone" placeholder="Phone" required/>
+                            <input type="text" name="adress" placeholder="Adress" />
+                            Bạn là:
+                            <select name="sex">
+                                <option value="true"> Nam</option>
+                                <option value="false">Nữ</option>
+                            </select>
+                            Pass word:
+                            <input type="password" name="pass" placeholder="Password" required/>
+							<input type="password" name="re_pass"placeholder="Retype Password" required/>
+							<button type="submit" id="btn" class="btn btn-default">Sign up</button>
+						</form>
+					</div><!--/sign up form-->
+				</div>
+			</div>
+		</div>
+            
+	</section><!--/form-->

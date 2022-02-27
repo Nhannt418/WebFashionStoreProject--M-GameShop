@@ -1,0 +1,152 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="@(ViewBag.Description!=null?ViewBag.Description:"Shop thời trang thi ESOPRT ")"> @*seo*@
+    <meta name="author" content="Thành Nhân">
+	<title>MG-Shop|@ViewBag.Title</title>
+	<!--Các thư Viện-->
+   <link href='https://fonts.googleapis.com/css?family=EB+Garamond&subset=latin,vietnamese' rel='stylesheet' type='text/css'>
+@*	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">*@
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-2.2.1.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    <link href="~/assets/css/font-awesome.css" rel="stylesheet" />
+    <link href="~/Content/_customerStyle.css" rel="stylesheet" />
+    <link href="~/Content/_customerSlide.css" rel="stylesheet" />
+    <link href="~/Content/_customerImageWapper.css" rel="stylesheet" />
+    <link href="~/Content/_customerLogin.css" rel="stylesheet" />
+    <link href="~/Content/_customerVerticalMenu.css" rel="stylesheet" />
+    <link href="~/Content/_jumpTop.css" rel="stylesheet" />
+    <link href="~/Content/_header.css" rel="stylesheet" />
+    <link href="~/Content/_customerCart.css" rel="stylesheet" />
+    <link href="~/Content/_customerFooter.css" rel="stylesheet" />
+    <link href="~/Content/_customerCartShared.css" rel="stylesheet" />
+    <link href="~/Content/_test.css" rel="stylesheet" />
+	<link rel="icon" href="/Galery/icon/icon.png" type="image/png" sizes="16x16">
+</head>
+<body>
+    <header>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3">
+					<div style="margin:5px;"><a href="/"><img src="/Galery/galery/logo2.png" alt="/"@* width="170" height="140"*@></a></div>
+				</div>
+				<div class="col-md-7">
+					<div id="header_bannner">
+                        @{Html.RenderAction("_detailInfor", "Menu");}
+					</div>
+				</div>
+				<div class="col-md-2">
+					<div>
+						@{Html.RenderAction("_Login","Menu");}
+					</div>
+				</div>
+			</div>
+			<div id="header_nav">
+				<div class="row">
+					<div class="col-md-12" id="fixed">
+						@{Html.RenderAction("_getMainMenu", "Menu");}
+					</div>
+                   
+				</div>
+			</div>
+		</div>
+	</header>
+        @RenderBody()
+       <footer id="footer"><!--Footer-->
+					<div class="footer-widget">
+						<div class="container">
+							<div class="row" id="about">
+								<div class="col-sm-4" style="padding-top:15px;">
+									<a  class="footer_logo" href="/" ><img src="/Galery/galery/logo1.png" alt="logo"/></a>
+									<h2><span>MG - </span> SHOPPING</h2>
+									<p>Là săn phẩm web được hoàn thành bởi nhóm 1 gòm các thành viên: Nhân, Quyền, Trí, Chung, Thọ và chủ đề của web là sở thích chung của các thành viên chung nhóm. Và đó là lí do ra đời của MêGame Shopping!!!!!!!</p>
+								</div>
+                                <div class="col-sm-4">
+								    <div class="col-sm-6">
+									    <div class="single-widget">
+                                            @{Html.RenderAction("_getPolicy", "Menu");}
+									    </div>
+								    </div>
+								    <div class="col-sm-6">
+									    <div class="single-widget">
+										    @{Html.RenderAction("_getAbout", "Menu");}
+									    </div>
+								    </div>
+                                        <div style="clear:both;color:#fff;font-size:1.2em;margin:10px 0;">Hãy đóng góp ý kiến cho chúng tôi để phục vụ tốt hơn!!</div>
+                                 </div>
+								<div class="col-sm-4">
+									<div class="single-widget">
+										<h2>Về Khách Hàng</h2>
+										<div class="navbar-form navbar-right">
+                                                  <form  action="/Home/Feedback" method="post">
+                                                      <div class="form-group">
+                                                         Tiêu đề:<br /><input class="form-control" type="text" name="title"placeholder="Title..."/><br />
+                                                         Nội dung:<br /><textarea rows="5" class="form-control"  name="content"placeholder="Content.."></textarea><br />
+												         Email:<br /><input type="email" name="email" class="form-control" placeholder="Email..">
+												         <button  type="submit" class="btn btn-send">Xác Nhận</button>
+                                                        </div>
+                                                  </form>
+												</div>
+												
+										</div>
+
+									</div>
+								</div>
+								
+							</div>
+                        </div>
+					<div class="footer-bottom">
+						<div class="container">
+							<div class="row">
+								<p class="pull-left">Thầy Công Đẹp Trai</p>	
+								<p class="pull-right">MêGame-Shopping by <a href="https://fb.com/0.anhsang.0">NHÂP BẮP</a></p>	
+							</div>
+						</div>
+					</div>
+				</footer><!--/Footer-->	
+        <script src="~/Scripts/_formVailidation.js"></script>
+    <script src="~/Scripts/_fixedMenu.js"></script>
+ <div class="container">
+  <!-- Trigger the modal with a button -->
+
+  <!-- Modal -->
+  <div class="modal fade" id="AddItems" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <h5 class="status_sended">Some text in the modal.</h5>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+</div>
+
+        @*ha ha xem hieu ung t viet dep chua*@
+
+                @{Html.RenderAction("_getShared", "Menu");}
+        
+			<a id="scrollUp" href="#top" style="position: fixed; z-index: 2147483647; display: block;">
+			<i class="fa fa-angle-up"></i>
+			</a>
+    <script>
+
+    </script>
+</body>
+</html>

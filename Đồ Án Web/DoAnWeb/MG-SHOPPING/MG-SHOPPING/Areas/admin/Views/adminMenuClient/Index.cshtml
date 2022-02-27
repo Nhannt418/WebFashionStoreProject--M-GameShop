@@ -1,0 +1,166 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_layout.cshtml";
+}
+@model List<MG_Model.EF.MenuCategory>
+<div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">Quản lý danh sách hệ thống Menu của trang client</h1>
+                    </div>
+                </div>
+
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal" > <i class="ace-icon fa fa-search-plus bigger-130"></i>Thêm Menu Manager</button>
+<div class="alert alert-info">
+    Trang Admin!!
+    <br />
+    Website of MêGame_Shopping
+</div>
+                <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h5>Thông tin Hệ thống Menu trang client</h5>
+                        </div>
+                        <div class="panel-body">
+         <div class="row">       
+              <div class="col-md-12">
+         @{         
+             foreach (var j in Model)
+             {
+                                 <div class="col-md-6">
+                                     <div class="text-center"><strong><button class="red" onclick="filldataOnly(@j.id,'')" data-toggle="modal" data-target="#myModal" >
+																	<i class="ui-icon ace-icon fa fa-plus center bigger-110"> @j.name</i>
+																</button></strong></div>
+    <table id="dynamic-table" class="table table-striped table-bordered table-hover">
+												<thead>
+													<tr>
+														<th class="center">
+															<label class="pos-rel">
+																<input type="checkbox" class="ace" />
+																<span class="lbl"></span>
+															</label>
+														</th>
+														<th>#</th>
+														<th>Name</th>
+                                                        <th>Link</th>
+                                                        <th>Position</th>
+                                                        <th>Icon</th>
+														<th class="hidden-480">Status</th>
+														<th></th>
+													</tr>
+												</thead>
+         <tbody>
+         												
+             @foreach (var i in j.MenuManager.Where(x => x.Submenu == null).OrderBy(x => x.Possition))
+             {
+                 var child = j.MenuManager.Where(x => x.Submenu == i.id).OrderBy(x=>x.Possition);
+                 var effect=child.Count()>0?"border:1px gray dotted;":" ";
+                                                        <tr id="row_@i.id">
+														    <td class="center">
+															    <label class="pos-rel" style="@effect">
+                                                                    <a href="javascript:mora(@i.id)"><span class="ui-icon ace-icon fa fa-plus center bigger-110 blue"></span></a>
+															    </label>
+														    </td>
+                                                             <td>
+															    <p class="text-center">@i.id</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center">@i.name</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center">@i.link</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center">@i.Possition</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center"><i class="@i.ItemIcon"></i></p>
+														    </td>
+                                                            <td>
+															  <p class="text-center">@(i.Status != null ? "Actived" : "Disabled")</p>
+														    </td>
+                                                            														<td>
+															<div class="hidden-sm hidden-xs action-buttons">
+																<a class="green" onclick="filldataOnly(@j.id,@i.id,'@i.name','@i.link',@i.Possition,'@i.ItemIcon','@i.Description','@i.Status')" data-toggle="modal" data-target="#myModal" >
+																	<i class="ace-icon fa fa-pencil bigger-130"></i>
+																</a>
+
+																<a class="red" onclick="deleted(@i.id,'/admin/adminMenuClient/Deleted')">
+																	<i class="ace-icon fa fa-trash-o bigger-130"></i>
+																</a>
+															</div>
+														</td>
+                                                            
+													</tr>
+                
+                    foreach (var k in child)
+                    { 
+                            <tr class="@i.id" style="display:none;margin:5px;">
+                                                 <td class="center">
+								                    <label class="pos-rel">
+                                                                    
+															    </label>
+												</td>
+                                                             <td>
+															    <p class="text-center">...</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center">@k.name</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center">@k.link</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center">@k.Possition</p>
+														    </td>
+                                                            <td>
+															    <p class="text-center"><i class="@k.ItemIcon"></i></p>
+														    </td>
+                                                            <td>
+															  <p class="text-center">@(k.Status != null ? "Actived" : "Disabled")</p>
+														    </td>
+                                </tr> 
+                    }
+             }
+             </tbody>
+             </table>
+                                    </div>
+                          
+             }
+         }
+                            </div>
+                            </div>
+                    </div>
+    </div>
+    </div>
+@{Html.RenderPartial("_themMenu");}
+<script>
+    function mora(str) {
+        $("." + str).slideToggle("normal");
+    }
+    function filldataOnly(cateid, subid,name,link,possition,icon,decrip,stat)
+    {
+        $("[name=Category]").val(cateid);
+        $("[name=Submenu]").val(subid);
+        $("[name=name]").val(name);
+        $("[name=link]").val(link);
+        $("[name=Possition]").val(possition);
+        $("[name=ItemIcon]").val(icon);
+        $("[name=Description]").val(decrip);
+        $("[name=Status]").val(stat); 
+    }
+    function deleted(id, urli)
+    {
+        var b = confirm("Bạn có chắc chắn muốn xóa!");
+        if (b) {
+            $.ajax({
+                url: urli,
+                data: { 'id': id },
+                success: function (data) {
+                    $("#row_" + id).remove();
+                    console.log(data);
+                }
+            });
+        }
+
+    }
+</script>

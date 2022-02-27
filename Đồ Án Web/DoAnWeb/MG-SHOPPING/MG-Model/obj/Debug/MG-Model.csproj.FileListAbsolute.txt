@@ -1,0 +1,44 @@
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll.config
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.pdb
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.dll
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.pdb
+E:\C#\Visual Studio project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csprojResolveAssemblyReference.cache
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll.config
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.pdb
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.xml
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csprojResolveAssemblyReference.cache
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.dll
+E:\Sync with OneDriver\Visual Studio project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.pdb
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll.config
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.pdb
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csprojAssemblyReference.cache
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csproj.CoreCompileInputs.cache
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csproj.CopyComplete
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.dll
+C:\Users\WINDOW10\Downloads\MG-SHOP\MG-SHOP\mg-shopping-master\mg-shopping-master\project\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.pdb
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll.config
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\bin\Debug\MG-Model.pdb
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csprojAssemblyReference.cache
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csproj.CoreCompileInputs.cache
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.csproj.CopyComplete
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.dll
+C:\Users\WINDOW10\Desktop\MG-SHOPPING\MG-Model\obj\Debug\MG-Model.pdb

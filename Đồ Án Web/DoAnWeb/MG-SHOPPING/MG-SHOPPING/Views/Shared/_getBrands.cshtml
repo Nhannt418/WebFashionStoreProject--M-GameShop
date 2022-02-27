@@ -1,0 +1,23 @@
+﻿@model IList<MG_Model.EF.MenuManager>
+
+<div class="brands_products"><!--brands_products-->
+                            
+							<div class="brands-name">
+									<div class="menu-container">
+      
+									  <div class="top_nav">
+										<h2 class="text-center">Hàng Hiệu</h2>
+									  </div>
+									  <div class="menu" >
+										  <ul>
+                                              @foreach (var i in Model)
+                                              { 
+                                                <li><a href="@i.link"><img src="@i.ItemIcon" alt="/"/>@i.name</a></li>
+                                              }
+										  </ul>
+									  </div>
+								</div>
+							</div>
+						</div><!--/brands_products-->
+						
+									  

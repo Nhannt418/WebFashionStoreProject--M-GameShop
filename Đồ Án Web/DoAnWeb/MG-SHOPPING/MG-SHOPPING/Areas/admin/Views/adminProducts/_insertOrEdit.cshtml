@@ -1,0 +1,52 @@
+﻿<div id="insertOrEditProduct" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Modal sửa sản phẩm cho bảng Products</h4>
+      </div>
+   <form  action="/admin/adminProducts/InseredtorUpdated" method="post" role="form" enctype = "multipart/form-data">
+      <div class="modal-body">
+           <div class="row">
+              <div class="col-md-6">
+                <input type="hidden" name="id" value="-1"/>
+                <p><input type="text" class="span12" name="nameProduct"   placeholder="Tên sản phẩm"></p>
+                <p><input type="text" class="span12" name="codeProduct"  placeholder="Mã sản phẩm"></p>
+                <p><input type="text" class="span12"  name="nameCompany" placeholder="Tên Công ti"></p>
+                <p>Ngày nhập kho:<input type="date" class="span12" name="dateImport"></p>
+                <p><input type="text" class="span12" name="Country" placeholder="Xuất xứ"></p>
+                Màu sắc:<input type="color" style="width:35px;height:35px;" name="color" "><br />
+                Danh mục:<select class="form-control" name="CategoryID" style="width:50%">
+                      @foreach (var i in ViewBag.listcate) {
+                          <option value="@i.id">@i.name</option> 
+                      }
+                  </select><br />
+               Loại:<select class="form-control" name="type" style="width:50%">
+                      @foreach (var i in ViewBag.listtype) {
+                          <option value="@i.id">@i.name</option> 
+                      }
+                  </select><br />
+                <p><input type="text" class="span12" name="Order" placeholder="Order" ></p>
+              </div>
+              <div class="col-md-6">
+                <p>Image-lớn:<input type="file" name="image_large" class="span12"> </p>
+                <p>Image-vừa:<input type="file" name="image_normal" class="span12"></p>
+                <p>Image-nhỏ:<input type="file" name="image_small" class="span12"></p>
+                <p><input type="text" class="span12"  name="alt" placeholder="Alt image" ></p>
+                <p><input type="text" class="span12"  name="material" placeholder="Chất liệu"></p>
+                <p><input type="text" class="span12" name="price" placeholder="Giá"></p>
+                <p><input type="text" class="span12" name="count"  placeholder="Số lượng" ></p>
+                <p><input type="text" class="span12" name="rank"  placeholder="Hạng" ></p>
+                <p><input type="text" class="span12" name="Description"  placeholder="Mô tả"></p>
+                <p><input type="text" class="span12" name="Status" placeholder="Status"></p>
+              </div>
+            </div>
+      </div>
+      <div class="modal-footer">
+        <input type="submit" class="btn btn-primary" value="Submit">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+        </form>
+    </div>
+  </div>
+</div>

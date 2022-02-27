@@ -1,0 +1,41 @@
+﻿@{
+    ViewBag.Title = "Trang chủ";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    //Home Index
+}
+@model MG_Model.CodeHandle.Assets.PageInfor<MG_Model.EF.Products>
+
+        @{Html.RenderAction("_getBanner", "Menu");}
+		<!--phan session của main-->
+	<section>
+
+		<div class="container">
+			<div class="row">
+                <div class="col-sm-3 cusx">
+                   @{Html.RenderAction("_getLeftMenu","Menu");}
+                </div>
+                <div class="col-sm-7 cusx">
+					<div class="features_items"><!--features_items-->
+						<h2 class="title text-center">-----Danh mục sản phẩm-----</h2>
+                                <div id="paging">
+                                    @Html.Partial("Paging",Model)
+                                </div>
+                        <script src="~/Scripts/_detailScript.js"></script>
+                        <script src="~/Scripts/_getHomePage.js"></script>
+								<!-- Left and right control>
+                    
+				</div><!--features_items-->
+                        <div>
+                            @{Html.RenderAction("_getSale", "Menu");}
+                        </div>
+                    </div>
+                    
+            </div>
+                <div class="col-sm-2 padding-right cusx">
+                     @{Html.RenderAction("_getBrands", "Menu");}
+                    
+                </div>
+               
+            </div>
+        </div>
+    </section>

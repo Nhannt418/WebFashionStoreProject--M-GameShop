@@ -1,0 +1,63 @@
+﻿@model MG_Model.CodeHandle.Assets.PageInfor<MG_Model.EF.Products>
+<table id="simple-table" class="table table-striped table-bordered table-hover">
+											<thead>
+												<tr>
+                                                    <th>#</th>
+                                                    <th>Name Product</th>
+                                                    <th>Company Name</th>
+                                                    <th>Ngày Nhập</th>
+                                                    <th>Xuất xứ</th>
+                                                    <th>Màu</th>
+                                                    <th>Ảnh lớn</th>
+                                                    <th>Ảnh nhỏ</th>
+                                                    <th>Chất liệu</th>
+                                                    <th>Giá</th>
+                                                    <th>Còn</th>
+                                                    <th>Detail|<br />Edit|<br />Delete</th>
+                                                </tr>
+											</thead>
+
+											<tbody>
+                                                  @foreach (var i in Model.ItemProduct)
+                                                    {                                                            <tr id="@i.id">
+                                                                <td>@i.id</td>
+                                                                <td><b>@i.nameProduct</b></td>
+                                                                <td>@i.nameCompany</td>
+                                                                <td>@i.dateCreated.Value.ToShortDateString()</td>
+                                                                <td>@i.Country</td>
+                                                                <td style="background-color:@i.color"></td>
+                                                                <td><img src="@i.image_large" alt="@i.alt" width="50%"></td>
+                                                                <td><img src="@i.image_small" alt="@i.alt" width="30%"></td>
+                                                                <td>@i.material</td>
+                                                                <td>@i.price</td>
+                                                                <td><span class="badge badge-warning">@i.count</span></td>
+													<td>
+														<div class="hidden-sm hidden-xs btn-group" >
+															<button class="btn btn-xs btn-success" onclick="_getDetail(@i.id)"  data-toggle="modal" data-target="#detailProduct">
+																<i class="ace-icon fa fa-check bigger-120"></i>
+															</button>
+
+															<button class="btn btn-xs btn-info" 
+                                                                onclick="_filldata(@i.id)"  
+                                                                data-toggle="modal" data-target="#insertOrEditProduct">
+																<i class="ace-icon fa fa-pencil bigger-120"></i>
+															</button>
+
+															<button class="btn btn-xs btn-danger" onclick="_deleteProduct(@i.id)">
+																<i class="ace-icon fa fa-trash-o bigger-120"></i>
+															</button>
+														</div>
+													</td>
+											</tr>
+                                                    }
+
+											</tbody>
+										</table>
+                                                Trang:@Model.CurrentPage
+                                                        @{var inc = Model.CurrentPage + 1;var des = Model.CurrentPage - 1;}
+                                                    <a href="javascript:_pagela(@inc)" >&raquo;</a>
+                                                            @for (var i = 1; i <=@Model.pageCount;i++ )
+                                                            {
+                                                                <a href="javascript:_pagela(@i)" >@i</a>
+                                                            }
+                                                    <a href="javascript:_pagela(@des)" >&laquo;</a>

@@ -1,0 +1,36 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_layout.cshtml";
+}
+@model MG_Model.CodeHandle.Assets.PageInfor<MG_Model.EF.Products>
+       <script src="~/Scripts/jquery-2.2.1.min.js"></script>
+       <script src="~/Areas/admin/JsHandle/JsProduct.js"></script>
+
+						<div class="row">
+							<div class="col-xs-12">
+								<!-- PAGE CONTENT BEGINS -->
+                                <div id="page-inner">
+                        <h1 class="page-head-line">Quản lý danh sách Sản phẩm</h1>
+                        <div class="alert alert-info">
+                            Trang Admin!!
+                            <br />
+                            Website of MêGame_Shopping
+                        </div>
+             <input class="btn btn-primary" type="button" value="Thêm sản phẩm" data-toggle="modal" data-target="#insertOrEditProduct" />
+                <div class="panel panel-default">
+                        <div class="panel-heading">
+                           <h5>Thông tin Sản phẩm</h5>
+                        </div>
+                        <div class="panel-body">
+								<div class="row">
+									<div class="col-xs-12" id="_pagingla">
+										 @{Html.RenderPartial("_paging", Model);}
+									</div><!-- /.span -->
+								</div><!-- /.row -->
+                              </div>
+                          </div>
+                     </div>
+                </div>
+            </div>
+@{Html.RenderPartial("_insertOrEdit");}
+@{Html.RenderPartial("_detail");}

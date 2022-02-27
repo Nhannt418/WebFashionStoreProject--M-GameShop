@@ -1,0 +1,12 @@
+﻿@model IEnumerable<MG_Model.EF.MenuManager>
+ 
+<div id="shared">
+    @foreach (var i in Model)
+    { 
+        <a target="@i.target" href="@i.link" id="@i.Description"><i class="@i.ItemIcon"> </i>@i.name</a>
+
+    }
+            <iframe id="_facebook"src="https://www.facebook.com/plugins/share_button.php?href=https://www.facebook.com/daylaptrinh231/&layout=button_count&mobile_iframe=true&appId=125391211209683&width=95&height=20"
+            width="95" height="20"  scrolling="no" frameborder="0" allowTransparency="true">
+            </iframe><br>
+    </div>

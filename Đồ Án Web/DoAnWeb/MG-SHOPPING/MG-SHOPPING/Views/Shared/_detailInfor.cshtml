@@ -1,0 +1,7 @@
+﻿@model IList< MG_Model.EF.MenuManager>
+<ul id="chitiet">
+    @foreach (var i in Model)
+    { 
+        <li><a href="@i.link" class="header_icon"><img src="@i.ItemIcon" />@i.name</a></li>
+    }
+</ul>

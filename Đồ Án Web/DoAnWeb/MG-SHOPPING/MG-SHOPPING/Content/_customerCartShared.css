@@ -1,0 +1,117 @@
+﻿/*// boi ManhTe lam ch MG_SHOPPING*/
+
+
+#__giohang {
+    position:fixed;
+    z-index:100;
+    display:block;
+    width:90px;
+    height:45px;
+    bottom:350px;
+    left:10px;
+    background-color:#A13091;
+    color:#fff;
+    padding:10px 10px;
+    font-size:0.9em;
+    box-shadow:0 2px 2px 0px rgb(194, 178, 178);
+}
+#_facebook {
+    position:fixed;
+    z-index:100;
+    display:block;
+    width:90px;
+    height:45px;
+    bottom:300px;
+    left:10px;
+    background-color:#4E69A2;
+    color:#fff;
+    padding:13px 5px;
+    font-size:0.9em;
+    box-shadow:0 2px 2px 0px rgb(194, 178, 178);
+
+}
+#_twitter {
+    position:fixed;
+    z-index:100;
+    display:block;
+    width:90px;
+    height:45px;
+    bottom:250px;
+    left:10px;
+    background-color:#4BACD2;
+    color:#fff;
+    padding:13px 5px;
+    font-size:0.9em;
+    box-shadow:0 2px 2px 0px rgb(194, 178, 178);
+}
+@keyframes _phongTom {
+ 0% {
+        width:90px;
+    }
+    25% {
+        width:100px;
+
+    }
+    50% {
+        width:110px;
+
+    }
+    75% {
+        width:100px;
+
+    }
+    100% {
+        width:90px;
+    }
+}
+@-webkit-keyframes _phongTom {
+ 0% {
+        width:90px;
+    }
+    25% {
+        width:100px;
+
+    }
+    50% {
+        width:110px;
+
+    }
+    75% {
+        width:100px;
+
+    }
+    100% {
+        width:90px;
+    }
+}
+#__giohang:hover {
+
+    animation-name:_phongTom;
+    animation-duration:1500ms;
+    animation-iteration-count:1;
+    -webkit-animation-name:_phongTom;
+    -webkit-animation-duration:1500ms;
+    -webkit-animation-iteration-count:1;
+    z-index:200;
+
+    }
+#_facebook:hover {
+
+    animation-name:_phongTom;
+    animation-duration:1500ms;
+    animation-iteration-count:1;
+    -webkit-animation-name:_phongTom;
+    -webkit-animation-duration:1500ms;
+    -webkit-animation-iteration-count:1;
+    z-index:200;
+}
+#_twitter:hover {
+
+    animation-name:_phongTom;
+    animation-duration:1500ms;
+    animation-iteration-count:1;
+    -webkit-animation-name:_phongTom;
+    -webkit-animation-duration:1500ms;
+    -webkit-animation-iteration-count:1;
+    z-index:200;
+}

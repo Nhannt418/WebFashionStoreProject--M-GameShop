@@ -1,0 +1,43 @@
+﻿@model IList< MG_Model.EF.MenuManager>
+<div class="category-tab"><!--category-tab-->
+						<div class="col-sm-12">
+						<h2 style="text-align:center;padding-top:30px;">RECOMMEND ITEMS</h2>
+							<ul class="nav nav-tabs">
+                                @foreach (var i in Model)
+                                {
+                                    if (i.name ==Model[0].name) {<li class="active"><a href="#@i.metaName" data-toggle="tab">@i.name</a></li> }
+                                    else{<li><a href="#@i.metaName" data-toggle="tab">@i.name</a></li>}
+                                }
+							</ul>
+						</div>
+						<div class="tab-content">
+                       @{ var rI = 0;
+                          foreach(var i in Model)
+                          { 
+                                <div class="tab-pane fade @if (@i.name ==Model[0].name){<text>active in</text>}"; id="@i.metaName">
+                                    @for (var j = 0; j < 4; j++)
+                                    {
+                                         <div class="col-sm-3" id="image_hot">
+									        <div class="product-image-wrapper">
+										        <div class="single-products">
+											        <div class="productinfo text-center">
+												        <img src="@ViewBag.Recommend[rI].image_large" alt="@ViewBag.Recommend[rI].alt" />
+												        <h2>Giá:<span>@ViewBag.Recommend[rI].price &#8363;</span></h2>
+												        <a href="/chi-tiet/@ViewBag.Recommend[rI].metaNameProduct"><strong>@ViewBag.Recommend[rI].nameProduct</strong></a>
+                                                        <button type="button" class="btn btn-fefault cart" data-toggle="modal" data-target="#AddItems" style="margin:0" onclick="addProduct(@ViewBag.Recommend[rI].id,'@ViewBag.Recommend[rI].nameProduct','@ViewBag.Recommend[rI].codeProduct','@ViewBag.Recommend[rI].image_large',@ViewBag.Recommend[rI].price)">
+										                        <i class="fa fa-shopping-cart" ></i>
+										                                Add to cart
+									                                </button>
+											        </div>
+											
+										        </div>
+									        </div>
+								        </div>
+                                        rI++;
+                                    }
+                            </div>
+                            }
+                        }
+						</div>
+					</div>
+

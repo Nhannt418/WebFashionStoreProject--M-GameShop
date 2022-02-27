@@ -1,0 +1,72 @@
+﻿@{
+    ViewBag.Title = "Index";
+    Layout = "~/Areas/admin/Views/Shared/_layout.cshtml";
+}
+@model MG_Model.CodeHandle.Assets.PageInfor<MG_Model.EF.User>
+
+   <div id="page-wrapper">
+            <div id="page-inner">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h1 class="page-head-line">Quản lý danh sách User chung</h1>
+                    </div>
+                </div>
+                <!-- /. ROW  -->
+                <script src="~/Scripts/jquery-2.2.1.min.js"></script>
+                <script src="~/Areas/admin/JsHandle/JsUser.js"></script>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="alert alert-info">
+                            Trang Admin!!
+                            <br />
+                            Website of MêGame_Shopping
+                        </div>
+                        <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <button class="btn btn-primary"onclick ="/"data-toggle="modal" data-target="#editUser">Thêm người dùng</button>
+                        </div>
+                        <div class="panel-body">
+                            <div class="table-responsive" id="_pagingUserla">
+                                 @Html.Partial("_pagingUser",Model)
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- /. PAGE INNER  -->
+        </div>
+        <!-- /. PAGE WRAPPER  -->
+@* sua user *@
+<div  id="editUser"class="modal fade" tabindex="-1" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Edit User</h4>
+      </div>
+        <form method="get" action="/admin/adminUser/EditUser">
+            <div class="modal-body">
+            <div class="row">
+              <div class="col-md-6">
+                <input type="hidden" name="id"/>
+                  <p><input type="text" class="span12" name="username"    placeholder="Tên đăng nhập"></p>
+                  <p><input type="text" class="span12" name="password"    placeholder="Mật Khẩu"></p>
+                  <p><input type="text" class="span12" name="realname"   placeholder="Tên Thật"></p>
+                  <p><input type="text" class="span12" name="email"   placeholder="Email"></p>
+                  <p><input type="text" class="span12" name="age"   placeholder="Age"></p>
+                  <p><input type="text" class="span12" name="Status"  placeholder="Trạng thái"></p>
+               </div>
+             </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">Save changes</button>
+          </div>
+        </form>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+

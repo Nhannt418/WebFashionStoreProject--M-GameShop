@@ -1,0 +1,75 @@
+﻿ <!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Thêm Menu</h4>
+      </div>
+                  <form id="formupdate">
+      <div class="modal-body">
+          <div class="row">
+          <div class="col-md-6">
+
+              <div class="form-group">
+               <input type="text" class="form-control" placeholder="Name" name="name">
+                  </div>
+                  <div class="form-group">
+              <input type="text"  class="form-control"placeholder="target" name="target">
+                      </div>
+              <div class="form-group">
+              <input type="text"  class="form-control"placeholder="link" name="link">
+                      </div>
+              <div class="form-group">
+              <input type="number"  class="form-control" name="Possition">
+                      </div>
+              <div class="form-group">
+              <input readonly type="text"  class="form-control" placeholder="Category" name="Category">
+                      </div>
+              </div>
+              <div class="col-md-6">
+              <div class="form-group">
+              <input type="text"  class="form-control"placeholder="ItemIcon" name="ItemIcon">
+                      </div>
+              <div class="form-group">
+              <input type="text"  class="form-control"placeholder="Description" name="Description">
+                      </div>
+                  <div class="form-group">
+              <input readonly type="text"  class="form-control" placeholder="Submenu" name="Submenu">
+                      </div>
+                      <div class="form-group">
+                      <select name="Status" class="form-control">
+                          <option value="True" selected>Activing</option>
+                          <option value="False">Hiding</option>
+                      </select>
+                  </div>
+              </div>
+              </div>
+              </div>
+      <div class="modal-footer">
+        <button type="button" onclick="themsua()" class="btn btn-primary" data-dismiss="modal">Submit</button>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+                  </form>
+    </div>
+
+  </div>
+    </div>
+<script>
+    function themsua()
+    {
+        var data = $('#formupdate').serialize();
+        console.log(JSON.stringify(data));
+        $.post({
+            url: '/admin/adminMenuClient/InsertedOrUpdated',
+            data: { data: data },
+            dataType:'json',
+            success: function () {
+                alert: 'Thanh cong';
+            }
+        });
+    }
+
+</script>

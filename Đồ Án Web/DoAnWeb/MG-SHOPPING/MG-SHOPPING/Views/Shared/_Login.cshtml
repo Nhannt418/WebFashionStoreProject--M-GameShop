@@ -1,0 +1,21 @@
+﻿@model MG_Model.EF.User
+
+@{
+    if (Model==null) {
+    <ul class="list_login">
+					<li><a href="/Dang-Nhap-or-Dang-Ki">Login</a></li>
+					<li><a href="/Dang-Nhap-or-Dang-Ki">Register</a></li>
+</ul> 
+}
+else{
+    var sex = (Model.sex == true) ? "/Galery/sex/men.png" : "/Galery/sex/women.png";
+        var redr="";
+    if (Model.GroupId.Equals("ADMIN"))
+    {
+        redr = "/admin/adminHome";
+    }
+    else {redr = "/ViewProfile";}
+        <a href=@redr><h3><img src="@sex" width="32" height="32">Hi! @Model.realName</h3>(@Model.GroupId)</a>
+    <a href="/Login/Logout" style="color:red;">Logout</a>
+}
+}

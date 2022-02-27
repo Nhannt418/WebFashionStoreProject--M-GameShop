@@ -1,0 +1,48 @@
+﻿@model List< MG_Model.EF.MenuManager>
+
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only">Toggle navigation</span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+</div>
+
+
+<ul class="nav navbar-nav collapse navbar-collapse">
+    @foreach (var i in Model.Where(x=>x.CategoryMenu==1&&x.Submenu==null))
+    {
+        var child = Model.Where(x => x.Submenu == i.id);
+        var parentClass = child.Count() > 0 || i.name=="Giỏ"? " data-toggle="+"dropdown" : "";
+        var idcart = i.name == "VOUCHER" ? "id=" + "cart_count" : "";
+        
+    <li class="dropdown">
+        <a class="divider" @parentClass @idcart href="@i.link"><i class="@i.ItemIcon"> </i> @i.name</a>
+        @if (child.Count() > 0)
+        {
+    <ul class="dropdown-menu">
+        @foreach (var j in child)
+        {
+    <li><a class="remixed" href="@j.link"><i class="@j.ItemIcon"> </i> @j.name</a></li>}
+    </ul>}
+        @if (i.name == "Giỏ")
+        {
+    <ul class="dropdown-menu" id="cart_menu"></ul>
+    <a href="~/Views/Shared/_getMainMenu.cshtml">~/Views/Shared/_getMainMenu.cshtml</a>}
+
+    </li>
+    }
+    <li><script src="~/Scripts/_getmenuid.js"></script>
+                    <script src="~/Scripts/_getsearch.js"></script>
+                    <div  id="header_search" >
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="text"  id="searcher" list="load_from_ajax" onkeydown="_getSearch()" class="form-control" placeholder="Search...">
+                                <datalist id="load_from_ajax"></datalist>
+								<input type="button" onclick="_sendToServer()" class="btn btn-primary" value="Search">
+							</div>
+						</form>
+					</div>
+        </li>							
+</ul>
